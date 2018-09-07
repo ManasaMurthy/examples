@@ -3,9 +3,9 @@
 const crypto = require('crypto');
 const fs = require('fs');
 
-const awsAccessKeyId = 'AKIAIQHNWAU7QQHHJACA';
-const awsSecretAccessKey = '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';
-const bucketName = 'serverless-m1032805';
+const awsAccessKeyId = '';
+const awsSecretAccessKey = '';
+const bucketName = '';
 
 const msPerDay = 24 * 60 * 60 * 1000;
 const expiration = new Date(Date.now() + msPerDay).toISOString();
